@@ -8,5 +8,5 @@ def cat_arrays(arr1, arr2):
     """
     Concatenates the two arrays
     """
-    
+
     return arr1 + arr2

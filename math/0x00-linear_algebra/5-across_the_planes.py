@@ -12,6 +12,6 @@ def add_matrices2D(mat1, mat2):
         return None
     if len(mat1) == 0 or len(mat2) == 0:
         return None
-    
-    return [[(mat1[ite1][ite2] + mat2[ite1][ite2]) for ite2 in range(len(mat1[0]))]
-        for ite1 in range(len(mat1))]
+
+    return [[(mat1[it1][it2] + mat2[it1][it2]) for it2 in range(len(mat1[0]))]
+            for it1 in range(len(mat1))]
